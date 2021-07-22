@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  padding: 0;
+  background: #eeeeee;
+  color: #111111;
+}
+
+/*-----------------LENGTH----------------- */
+.length {
+  display: flex;
+}
+
+select#listaFinal, #listaInicial {
+  width: 150px;
+}
+
+.fromAndTo {
+  width: 7rem;
+  height: 10rem;
+}
+
+/* input#numberLengthtxt {
+  background-color: #eeeeee;
+}  */
+
+/* Result */
+.result {
+  font-size: 20px;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: #111111;
+}
+

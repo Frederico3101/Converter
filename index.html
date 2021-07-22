@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Fredão's converter!</h1>
+    <p>LENGTH; TEMPERATURE; AREA; VOLUME; WEIGHT; TIME</p>
+  </header>
+
+  <h2>Length</h2>
+
+  <p>
+    Type a number: <input type="number" name="" id="numberLengthtxt">
+    <button onclick="verifyLength()">Verify</button>
+  </p>
+
+  <div class="length">
+    <div class="fromAndTo">
+      <p>From:</p>
+      <input type="radio" name="inicialLength" id="">
+      <label for="">km</label> <br>
+
+      <input type="radio" name="inicialLength" id="">
+      <label for="">m</label> <br>
+
+      <input type="radio" name="inicialLength" id="">
+      <label for="">cm</label> <br>
+
+      <input type="radio" name="inicialLength" id="">
+      <label for="">mm</label>
+    </div>
+
+    <div class="fromAndTo">
+      <p>To:</p>
+      <input type="radio" name="finalLength" id="">
+      <label for="">km</label> <br>
+
+      <input type="radio" name="finalLength" id="">
+      <label for="">m</label> <br>
+
+      <input type="radio" name="finalLength" id="">
+      <label for="">cm</label> <br>
+
+      <input type="radio" name="finalLength" id="">
+      <label for="">mm</label>
+    </div>
+  </div>
+  <div id="resLength" class="result">Resultado</div> 
+  <br>
+  <div class="divider"></div>
+
+  <!-- ================================== TEMPERATURE ================================== -->
+
+  <h2>Temperature</h2>
+
+  <p>
+    Type a number: <input type="number" name="" id="numberTemperaturetxt">
+    <button onclick="verifyTemperature()">Verify</button>
+  </p>
+
+  <div class="length">
+    <div class="fromAndTo">
+      <p>From:</p>
+      <input type="radio" name="inicialTemperature" id="">
+      <label for="">Celsius</label> <br>
+
+      <input type="radio" name="inicialTemperature" id="">
+      <label for="">Kelvin</label> <br>
+
+      <input type="radio" name="inicialTemperature" id="">
+      <label for="">Fahrenheit</label>
+    </div>
+
+    <div class="fromAndTo">
+      <p>To:</p>
+      <input type="radio" name="finalTemperature" id="">
+      <label for="">Celsius</label> <br>
+
+      <input type="radio" name="finalTemperature" id="">
+      <label for="">Kelvin</label> <br>
+
+      <input type="radio" name="finalTemperature" id="">
+      <label for="">Fahrenheit</label>
+    </div>
+  </div>
+
+  <div id="resTemperature" class="result">Resultado</div>
+  <br>
+  <div class="divider"></div>
+
+  <!-- ================================== TIME ================================== -->
+
+  <h2>Time</h2>
+
+  <p>
+    Type a number: <input type="number" name="" id="numberTimetxt">
+    <button onclick="verifyTime()">Verify</button>
+  </p>
+
+  <div class="length">
+    <div class="fromAndTo">
+      <p>From:</p>
+      <input type="radio" name="inicialTime" id="">
+      <label for="">Milisecond</label> <br>
+
+      <input type="radio" name="inicialTime" id="">
+      <label for="">Second</label> <br>
+
+      <input type="radio" name="inicialTime" id="">
+      <label for="">Minute</label> <br>
+
+      <input type="radio" name="inicialTime" id="">
+      <label for="">Hour</label> <br>
+
+      <input type="radio" name="inicialTime" id="">
+      <label for="">Day</label>
+    </div>
+
+    <div class="fromAndTo">
+      <p>To:</p>
+      <input type="radio" name="finalTime" id="">
+      <label for="">Milisecond</label> <br>
+
+      <input type="radio" name="finalTime" id="">
+      <label for="">Second</label> <br>
+
+      <input type="radio" name="finalTime" id="">
+      <label for="">Minute</label> <br>
+
+      <input type="radio" name="finalTime" id="">
+      <label for="">Hour</label> <br>
+
+      <input type="radio" name="finalTime" id="">
+      <label for="">Day</label>
+    </div>
+  </div>
+  <br>
+  <div id="resTime">Resultado</div>
+  <br>
+  <div class="divider"></div>
+  <!-- ================================== DARK MODE ================================== -->
+  <p><strong>Dark mode:</strong></p>
+  <button onclick="darkModeOn()">ON</button>
+  <button onclick="darkModeOff()">OFF</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
