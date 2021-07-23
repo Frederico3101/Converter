@@ -265,7 +265,10 @@ function verifyTime() {
 /* ======================== DARK MODE ======================== */
 function darkModeOn() {
   document.body.style.background = '#111111'
-  document.body.style.color = 'whitesmoke'
+  document.body.style.color = '#eeeeee'
+  document.getElementById('divider1').style.backgroundColor = "#eeeeee";
+  document.getElementById('divider2').style.backgroundColor = "#eeeeee";
+  document.getElementById('divider3').style.backgroundColor = "#eeeeee";
 }
 
 function darkModeOff() {
